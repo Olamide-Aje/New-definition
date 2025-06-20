@@ -1,0 +1,47 @@
+body{
+    background-color: burlywood;
+}
+h2 {
+    font-style: italic;
+    color: navy;
+    word-spacing: 10px;
+    font-style: italic;
+    font-size:50px; 
+    text-shadow: 5px 5px 30px rgb(154, 154, 238);
+}
+header nav a:hover {
+    color:black;
+    font-size: 10px;
+    text-decoration: none;
+}
+header nav a:active {
+    color: yellow;
+}
+.form:first-letter{
+    color:blue;
+    font-style: oblique;
+    font-size: 40px;
+}
+.form{
+    color:rgb(38, 38, 51);
+    font-size: 20px;
+}
+#post::before{
+    content: "Header";
+    color:blue;
+    font-style: italic;
+    font-size: 30px;
+
+}
+link{
+    color: burlywood;
+}
+
+
+
+
+
+
+
+
+

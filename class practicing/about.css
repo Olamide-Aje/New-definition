@@ -1,0 +1,44 @@
+body{
+    background-color: white;
+
+}header nav a:hover {
+    color:black;
+    font-size: 10px;
+    text-decoration: none;
+}
+header nav a:active {
+    color: yellow;
+}
+h2{
+    color: rgb(13, 105, 185);
+    font-size: 30px;
+    font-style: oblique;
+    text-decoration: underline;
+}
+h2::first-letter{
+    color: blue;
+    font-size: 50px;
+    font-style: italic
+}
+#post{
+    color: blue;
+    
+}
+p::first-letter{
+    font-size: 20px;
+    font-style: italic;
+    color: rgb(138, 138, 197);
+
+}
+.form{
+    font-size: 10px;
+    font-style: italic;
+    color: rgb(80, 80, 150);
+}
+.blue{
+    word-spacing: 10px;
+}
+
+
+    
+

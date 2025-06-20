@@ -1,0 +1,41 @@
+/* process of divising two box into two part */
+
+/* body{
+background-color: brown;
+padding: 0;
+margin: 0;
+}
+.Container{
+    background-color:pink;
+    overflow: hidden;
+    text-align: center;
+}
+.Box1, .Box2{
+    background-color: white;
+    border: 5px solid white;
+    margin: 60px;
+    padding: 30px;
+    color:black;
+    border-radius: 5px;
+    box-shadow: 4px 4px 7px black;
+}
+.Box1{
+    float: left;
+}
+.Box2{
+    float: right;
+}  */
+
+body{
+    color: yellow;
+    justify-content: center;
+}
+.Container{
+    background-color: green;
+    display: flex;
+}
+.Box{
+    margin: 10px;
+    padding: 20px;
+    border:3px solid yellow;
+}

@@ -1,0 +1,104 @@
+body {
+    background-color:white;
+}
+/*           General sibling selector */
+/* h1~P{
+    color : yellow;
+} */
+
+h1+p {
+    color :orangered;
+}
+a[target]{
+    color: orange;
+    font-style: italic;
+    font-size: 20px;
+}
+.main span{
+    color:blueviolet !important;
+    font-size: 20px;
+    font-style: italic;
+
+}
+#container{
+    background-color:whitesmoke;
+    color:blue;
+    font-style: italic;
+    font-size: 20px;
+}
+.main span{
+    color: azure ;
+    font-size: none;
+}
+
+
+.main li a:link{
+    color: orange;
+    text-decoration: none;
+    font-style: oblique;
+    list-style-type: upper-alpha;
+
+}
+.main li a:hover{
+    color:green;
+}
+.main li a:focus{
+    text-decoration: underline;
+    font-size: 10px;
+}
+.main li a:active{
+    text-decoration: overline;
+    font-size: 30px;
+}
+.rule li a:link{
+    text-decoration: none;
+    color:#2be2a5;
+}
+.rule li:first-child{
+    color:peru;
+
+}
+.rule li:nth-child(odd){
+    color:pink;
+    font-style: italic;
+    font-size: 30px;
+}
+.main p::first-letter{
+    color: purple;
+    font-size: 30px;
+    text-decoration: overline;
+    letter-spacing: 20px;
+}
+.main p::before{
+    content: "chapter 2";
+    font-size: 20px;
+    color:rgb(172, 172, 194);
+}
+.maIn p::after{
+    content:"leading";
+    font-size: 30px;
+    color:purple;
+
+}
+#rule h2{
+    text-transform:uppercase;
+    color: aqua;
+    font-size: 20px;
+    letter-spacing: 30px;
+}
+#rule p{
+    text-transform: initial;
+    text-decoration: underline;
+    line-height: 50px;
+    word-spacing: 8px;
+    text-indent: 20px;
+    font-weight: lighter;
+}
+p{
+    text-indent: 53px;
+    text-align: end;
+    font-weight: bolder;
+}
+
+
+

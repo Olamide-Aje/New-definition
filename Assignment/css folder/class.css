@@ -1,0 +1,77 @@
+.menu li a:link{
+    color: green;
+}
+.menu li a:hover {
+    font-size: 23px;
+    color:magenta;
+}
+.menu li a:focus {
+    background-color: crimson;
+
+}
+.menu li a:active {
+    font-style: italic;
+    font-size: 50px;
+
+}
+.fruit li:first-child {
+    color: purple;
+}
+.fruit li:last-child {
+    color: peru;
+}
+.food li:nth-child(even){
+    color: yellow;
+}
+.post p::first-letter {
+    font-size: 40px;
+    color: red;
+    font-style: italic;
+}
+.post p::first-line{
+    color: green;
+
+}ff
+.post p::before{
+    content: "chapter 1";
+    font-size: 30px;
+    color: blue;
+}
+.post p::after{
+    content: "chapter 1";
+    font-size: 30px;
+    color:yellowgreen;
+}
+.form h1::first-line{
+    color: blue;
+}
+.form h1::first-letter{
+    color: aqua;
+}
+.form p::before{
+    content: "chapter 1";
+    font-size: 20px;
+    color:red;
+}
+.form p::after{
+    content: "meaning 1";
+    font-size: 10px;
+    color: yellow;
+}
+.class p{
+   text-transform:capitalize; 
+   text-decoration:overline;
+   line-height: 10px;
+   letter-spacing: 10px;
+   word-spacing: 10px;
+   text-indent: 100px;
+   text-shadow: 2px 1px 2px blue; 
+   text-align: center;
+}
+ul li a{
+    text-decoration: none;
+}
+ul{
+    list-style-type:georgian;
+}
+

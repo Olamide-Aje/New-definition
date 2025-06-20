@@ -1,0 +1,96 @@
+/*type  selector*/
+body{
+    background: purple;
+    color : white;
+}
+h1{
+    color : gray;
+    font-style: italic;
+    font-weight: bold;
+}
+h2{
+    background-color: white;
+    color :red;
+}
+label{
+    background-color: white;
+    color: pink;
+}
+ 
+/*class selector*/
+.group1 {
+    background-color:maroon;
+    font-size: 20px;
+
+}
+.group2 {
+    background-color: magenta;
+    padding: 10px;
+
+}
+.group1 {
+    padding: 20px 0;
+    margin: 40px auto;
+    border: 7px solid yellow;
+}
+/* id selector */
+#group1 {
+    text-align: center;
+    color: chartreuse;
+    background: black
+}
+
+/* child selector */
+.post > p {
+    background-color: blue;
+    color: white;
+    height: 250px;
+    width: 250px;
+    padding:30px;
+    border-radius: 50px;
+
+}
+/* descendent selector */
+.post span{
+    color: red;
+}
+
+/* Adject sibling selector */
+h3 + p{
+    color : magenta;
+    font-style: italic;
+}
+/* General sibling Selector */
+h4 ~ p{
+    color:red;
+}
+/* last Rule */
+h4 ~p {
+    color: yellow;
+}
+/* Attribute selsctor */
+a[href] {
+    color:green;
+    font-size: bold;
+    text-transform: uppercase;
+}
+/* Attribute Selector */
+input[type="text"] {
+    height: 500px;
+    width: 500px;
+}
+/* universal selector */
+*
+{
+    color: black;
+}
+.post span{
+    color: lawngreen;
+    font-weight: bold;
+    
+}
+#main .post span{
+    color: purple;
+    font-weight: bold;
+    text-transform: uppercase;
+}

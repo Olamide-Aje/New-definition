@@ -1,0 +1,18 @@
+h1{
+    color:brown;
+}
+a{
+    color:rgb(32, 160, 32);
+    font-style: italic;
+}
+h3{
+    color:red;
+}
+p::first-letter{
+    font-size: 40px;
+    color: red;
+    font-style: italic;
+}
+h4{
+    color:blue;
+}
